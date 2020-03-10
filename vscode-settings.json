@@ -1,0 +1,32 @@
+{
+    // Set the default
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    // WSL
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.showTabs": true,
+    "window.zoomLevel": 0,
+    "git.ignoreMissingGitWarning": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j,
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "debug.node.autoAttach": "on",
+    "workbench.colorTheme": "Monokai",
+}
