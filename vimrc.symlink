@@ -1,6 +1,0 @@
-syntax enable
-inoremap jj <esc>
-let mapleader=","
-let maplocalleader=","
-
-let g:netrw_banner = 0
